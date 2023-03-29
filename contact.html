@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Basic HTML | CSS</title>
+</head>
+
+<body>
+  <header id="home" class="hero-utility">
+    <div id="navbar" class="navbar">
+      <h1 class="logo">
+        <span class="primary-colour"><i class="fa-solid fa-person-running fa-2x"></i><a href="index.html"
+            class="important">Sports</a></span> R Us
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="running.html">Running</a></li>
+          <li>
+            <a href="bike.html">Dropdown <i class="fa fa-caret-down"></i></a>
+            <ul>
+              <li><a href="bike.html">Bike</a></li>
+              <li><a href="gym-equipment.html">Gym</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main id="form">
+    <div class="container-form">
+      <div class="grid-container">
+        <section class="card flex-form">
+          <h2>Let's have a chat</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, quae.</p>
+          <div class="form-div">
+            <i class="fa fa-book fa-5x" aria-hidden="true"></i>
+            <p>Address:<br> Sports R Us, Sports way, London, England UK</p>
+          </div>
+          <div class="form-div">
+            <i class="fa fa-phone-square fa-5x" aria-hidden="true"></i>
+            <p>Telephone: 07865456789</p>
+          </div>
+          <div class="form-div">
+            <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+            <p>Email: SportsRus@sports.com</p>
+          </div>
+          <div class="form-div">
+            <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+            <p>Website: SportsRus.com</p>
+          </div>
+        </section>
+
+
+
+
+        <section class="card">
+
+          <!-- Form element -->
+          <div class="form-container">
+            <h1>Sign Up</h1>
+            <p>To our newsletter. It's free.</p>
+            <form action="#">
+              <label for="firstName">First name:</label>
+              <input type="text" name="firstName" id="firstName" placeholder="Enter Name">
+              <label for="secondName">Family name:</label>
+              <input type="text" name="secondName" id="secondName" placeholder="Enter name">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Enter Email">
+              <label for="textarea">Message:</label>
+              <textarea name="textarea" id="textarea" placeholder="Optional Message"></textarea>
+              <button class="btn btn-width home">Sign Up</button>
+              <p class="bottom-text">
+                By clicking the Sign Up button, you agree to our
+                <a href="#">Terms & Conditions</a> and
+                <a href="#">Privacy Policy</a>
+              </p>
+            </form>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+    </div>
+    <p>Copyright &copy; 2023 <span class="text-primary"><i class="fa-solid fa-person-running fa-2x"></i> Sports
+      </span>are Us</p>
+  </footer>
+</body>
+
+</html>

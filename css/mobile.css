@@ -1,0 +1,36 @@
+#home-articles .articles-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar {
+  flex-direction: column;
+  height: 120px;
+  padding: 1rem
+}
+
+nav ul a {
+  padding: 0.5rem 0;
+  margin: 0.5rem;
+}
+
+footer .social * {
+  margin: 0.5rem;
+}
+
+#form .grid-container {
+  grid-template-columns: 1fr;
+}
+
+.flex-form,
+.form-div {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+@media(max-width:600px) {
+  #home-articles .articles-container {
+    grid-template-columns: 1fr;
+  }
+}
